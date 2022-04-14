@@ -6,8 +6,8 @@ print("Welcome to the Wordle Bot!")
 print("To use, make a guess and then enter the corresponding results")
 print("Grey square = 0, Yellow square = 1, Green square = 2")
 
-smallWordsFile = open(r"path-to-file", "r")
-largeWordsFile = open(r"path-to-file", "r")
+smallWordsFile = open(r"Wordle Small List.txt", "r")
+largeWordsFile = open(r"Wordle Large List.txt", "r")
 
 smallWordsList = smallWordsFile.readlines()
 largeWordsList = largeWordsFile.readlines()
